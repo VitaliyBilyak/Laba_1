@@ -71,6 +71,7 @@ print('Задача 9') #+
 n= input('Ведіть число будь яке число:')
 O=[int(j) for j in n]
 M=sum(O)
+print(O)
 print(M)
 
 print('Задача 10')#+
