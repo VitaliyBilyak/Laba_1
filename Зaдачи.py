@@ -77,8 +77,8 @@ print(M)
 print('Задача 10')#+
 import math
 x1=39.9075000
-x2 = 116.3972300
-y1 = 50.4546600
+y1 = 116.3972300
+x2 = 50.4546600
 y2 = 30.5238000
 A1= math.radians(x1)
 A2= math.radians(x2)
@@ -86,4 +86,4 @@ F1= math.radians(y1)
 F2= math.radians(y2)
 
 Дистанція = 6371.032 * math.acos(math.sin(A1) * math.sin(A2) + math.cos(A1) * math.cos(A2) * math.cos(F1 - F2))
-print(Дистанція)
+print(f'{Дистанція:.3f}')
