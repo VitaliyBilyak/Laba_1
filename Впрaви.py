@@ -4,10 +4,10 @@ print(60*60)
 print('Вправа 2')
 #1 варіант
 seconds_per_hour=(60*60)
+print(seconds_per_hour)
 #2 варіант
 hour= int(input('Скільки годин:'))
-print(seconds_per_hour)
-
+print('2variant',hour*60*60)
 print('Вправа 3')
 print(seconds_per_hour*24)
 
@@ -39,11 +39,11 @@ print(str.swapcase(name))
 
 print('Вправа 10')  #Вправа з поемою
 poem ='''Yes, I'll smile, indeed, through tears and weeping
-... Sing my songs where evil holds its sway,
-... Hopeless, a steadfast hope forever keeping,
-... I shall live! You thoughts of grief, away!'''
+Sing my songs where evil holds its sway,
+Hopeless, a steadfast hope forever keeping,
+I shall live! You thoughts of grief, away!'''
 print(poem)
-print(poem[0:15])  #1
+print(poem[:15])  #1
 print(len(poem))  #2
 print(poem.startswith('Yes')) #3
 print(poem.endswith('I shall live!')) #4
